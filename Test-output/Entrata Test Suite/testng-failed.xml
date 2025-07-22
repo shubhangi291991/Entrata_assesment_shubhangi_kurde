@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Entrata Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="appUrl" value="https://www.entrata.com/"/>
+  <test thread-count="5" name="Entrata Home Test(failed)">
+    <classes>
+      <class name="Module1_Test.EntrataHomeTestPage">
+        <methods>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Module1_Test.EntrataHomeTestPage -->
+    </classes>
+  </test> <!-- Entrata Home Test(failed) -->
+</suite> <!-- Failed suite [Entrata Test Suite] -->

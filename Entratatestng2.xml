@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EntrataTestSuite">
+	 
+  <test name="EntrataHomeTest">
+    <parameter name="appUrl" value="https://www.entrata.com/" />
+    <classes>
+      <class name="Module1_Test.EntrataHomeTestPage"/>
+    </classes>
+  </test>
+</suite>
