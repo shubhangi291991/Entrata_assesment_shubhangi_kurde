@@ -6,9 +6,16 @@
     <classes>
       <class name="Module1_Test.EntrataHomeTestPage">
         <methods>
+          <include name="navigate_to_signup"/>
           <include name="logoutFromApp"/>
+          <include name="flushReport"/>
+          <include name="verifycommertest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
           <include name="setup"/>
+          <include name="logintoapp"/>
           <include name="verifyerrormessage"/>
+          <include name="setupReport"/>
         </methods>
       </class> <!-- Module1_Test.EntrataHomeTestPage -->
     </classes>

@@ -19,7 +19,7 @@ public class EntrataHomePage {
 	//step1: declaration
 	@FindBy(xpath="(//a[text()='Sign in'])[2]") private WebElement signbtn;
 	@FindBy(xpath="//div[text()='Resident Login']") private WebElement Resident_login;
-	 
+	@FindBy(xpath="//div[text()='Commercial']") private WebElement commericialbtn;
  	
 	//step2: initialization
 	public EntrataHomePage(WebDriver driver)
@@ -42,4 +42,12 @@ public class EntrataHomePage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	}
+	
+	public void clickoncommericialbtn()
+	
+	
+	{
+		commericialbtn.click();
+	}
 }
+                                                                                                                                          

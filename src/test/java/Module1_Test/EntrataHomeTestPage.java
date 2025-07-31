@@ -68,6 +68,13 @@ public class EntrataHomeTestPage extends BaseClass {
 			Assert.assertEquals(actualerrorText, expeerrorText,"Failed: - both results are diff:   ");
 	 }
 	 
+	 @Test(priority=5)
+	 public void verifycommertest()
+	 
+	 {
+		 
+		Home.clickoncommericialbtn();
+	 }
 	 
 		@AfterMethod
 	 public void logoutFromApp(ITestResult s1) throws InterruptedException, IOException
